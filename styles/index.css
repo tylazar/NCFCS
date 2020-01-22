@@ -35,6 +35,11 @@
 	margin: 1em;
 }
 
+.footer {
+	height: 30vh;
+	background-color: #003087;
+}
+
 body {
 	margin: 0;
 	text-align: center;

@@ -3,24 +3,22 @@
 <head>
 	<title>New College of Florida | Computer Science | Projects</title>
 
-	<link rel="stylesheet" type="text/css" href="..\styles\index.css">
+	<link rel="stylesheet" type="text/css" href="..\styles\projects.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="top-nav">
-		<img class="nav-img-left" src="..\images\logo-white.png">
-		<div class="navigation">
-			<a class="home" href="..\index.html">Home</a>
-			<a class="curriculum" href="..\curriculum.html">Curriculum</a>
-			<a class="facalum" href="..\faculty\index.html">Faculty & Alumni</a>
-			<a class="active" href="..\projects\index.html">Student Projects</a>
-			<a class="resources" href="..\resources.html">Resources</a>
-		</div>
-		<img class="nav-img-right" src="..\images\four-winds-white.png">
-	</div>
+	<ul id="top-nav">	
+		<li class="nav"><img id="nav-img-left" src="..\images\logo-white.png"></li class="nav">
+		<li class="nav"><a class="top-link" href="..\index.html">Home</a></li class="nav">
+		<li class="nav"><a class="top-link" href="..\curriculum.html">Curriculum</a></li class="nav">
+		<li class="nav"><a class="top-link" href="..\faculty\index.html">Faculty & Alumni</a></li class="nav">
+		<li class="nav"><a class="top-link active" href="..\projects\index.html">Student Projects</a></li class="nav">
+		<li class="nav"><a class="top-link" href="..\resources.html">Resources</a></li class="nav">
+		<li class="nav"><img id="nav-img-right" src="..\images\four-winds-white.png"></li class="nav">
+	</ul>
 
-	<div class="body-content">
-		<h1 class="resources-header">STUDENT PROJECTS</h1>
+	<div id="body-content">
+		<h1>STUDENT PROJECTS</h1>
 		<div id="tags">
 			<button class="btn active" onclick="filterSelection('all')">Show All</button>
 			<button class="btn" onclick="filterSelection('class-project')">Class Project</button>

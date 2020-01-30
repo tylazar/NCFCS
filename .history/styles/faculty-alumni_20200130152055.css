@@ -1,0 +1,39 @@
+@import "common.css";
+
+/*.directory {
+	width: 80%;
+	margin: auto;
+	align-content: center;
+}
+
+.directory tr {
+	display: flex;
+}
+
+.directory td {
+	display: flex;
+	width: 33.33%;
+	margin: auto;
+	align-self: center;
+}
+
+.directory td p {
+	align-self: center;
+	margin-left: 2vw;
+}*/
+
+.directory {
+	display: inline;
+}
+
+.entry {
+	float: inline-block;
+}
+
+.rnd-img {
+	float: left;
+}
+
+.standard-text {
+	float: right;
+}

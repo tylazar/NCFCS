@@ -1,0 +1,51 @@
+@import "common.css";
+
+/*.directory {
+	width: 80%;
+	margin: auto;
+	align-content: center;
+}
+
+.directory tr {
+	display: flex;
+}
+
+.directory td {
+	display: flex;
+	width: 33.33%;
+	margin: auto;
+	align-self: center;
+}
+
+.directory td p {
+	align-self: center;
+	margin-left: 2vw;
+}*/
+
+.directory {
+	width: 100%;
+	display: inline-flex;
+	align-content: center;
+	border: solid black 2px;
+}
+
+.entry {
+	float: inline;
+	margin: auto;
+	width: 50%;
+	border: solid red 2px;
+}
+
+.rnd-img {
+	float: left;
+	width: 20vw;
+	border: solid blue 2px;
+}
+
+h6 {
+	line-height: 1em;
+}
+
+.standard-text {
+	border: solid green 2px;
+}

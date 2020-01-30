@@ -1,6 +1,6 @@
 @import "common.css";
 
-.directory {
+/*.directory {
 	width: 80%;
 	margin: auto;
 	align-content: center;
@@ -20,4 +20,41 @@
 .directory td p {
 	align-self: center;
 	margin-left: 2vw;
+}*/
+
+.directory {
+	width: 100%;
+	display: inline-flex;
+	align-content: center;
+	border: solid black 2px;
+}
+
+.entry {
+	float: inline;
+	margin: auto;
+	width: 50%;
+	border: solid red 2px;
+}
+
+.rnd-img {
+	float: left;
+	width: 20vw;
+	border: solid blue 2px;
+	padding: 2em;
+}
+
+.text-div {
+	margin: auto;
+	width: 12vw;
+	float: right;
+}
+
+.name {
+	line-height: 1em;
+	margin-bottom: 0em;
+}
+
+.standard-text {
+	margin-top: 0em;
+	border: solid green 2px;
 }

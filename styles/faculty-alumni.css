@@ -26,20 +26,20 @@
 	width: 100%;
 	display: inline-flex;
 	align-content: center;
-	border: solid black 2px;
+	/*border: solid black 2px;*/
 }
 
 .entry {
 	float: inline;
 	margin: auto;
 	width: 50%;
-	border: solid red 2px;
+	/*border: solid red 2px;*/
 }
 
 .rnd-img {
 	float: left;
 	width: 20vw;
-	border: solid blue 2px;
+	/*border: solid blue 2px;*/
 	padding: 2em;
 }
 
@@ -56,5 +56,5 @@
 
 .standard-text {
 	margin-top: 0em;
-	border: solid green 2px;
+	/*border: solid green 2px;*/
 }

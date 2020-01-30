@@ -40,11 +40,12 @@
 	float: left;
 	width: 20vw;
 	/*border: solid blue 2px;*/
-	padding: 2em;
+	padding: 1em;
 }
 
-.text-div {
-	margin: auto;
+.desc {
+	margin-top: 10vh;
+	text-align: left;
 	width: 12vw;
 	float: right;
 }

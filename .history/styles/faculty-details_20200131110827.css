@@ -1,0 +1,13 @@
+@import "common.css";
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#body-content {
+    margin-bottom: 100vh;
+}

@@ -1,0 +1,44 @@
+@import "common.css";
+
+#left {
+    float: left;
+}
+
+#right {
+    margin-top: -5vh;
+    float: right;
+    max-width: 50%;
+}
+
+br {
+    line-height: 0.5em;
+}
+
+#body-content {
+    min-height: 100vh;
+    position: relative;
+    margin-bottom: 6vh;
+}
+
+.two-column {
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+.long {
+    margin-bottom: 10vh;
+}
+
+.short {
+    width: 75%;
+}
+
+#extra-content {
+    margin-top: 65vh;
+}
+
+.long {
+    margin-top: 80vh;
+}

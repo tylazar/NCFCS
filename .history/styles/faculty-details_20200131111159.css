@@ -1,0 +1,13 @@
+@import "common.css";
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+#body-content {
+    height: 100%;
+}

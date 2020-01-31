@@ -1,27 +1,5 @@
 @import "common.css";
 
-/*.directory {
-	width: 80%;
-	margin: auto;
-	align-content: center;
-}
-
-.directory tr {
-	display: flex;
-}
-
-.directory td {
-	display: flex;
-	width: 33.33%;
-	margin: auto;
-	align-self: center;
-}
-
-.directory td p {
-	align-self: center;
-	margin-left: 2vw;
-}*/
-
 .directory {
 	width: 100%;
 	display: inline-flex;
@@ -38,16 +16,16 @@
 
 .rnd-img {
 	float: left;
-	width: 20vw;
+	width: 15vw;
 	/*border: solid blue 2px;*/
 	padding: 1em;
 }
 
 .desc {
-	margin-top: 10vh;
+	margin-top: 6vh;
 	text-align: left;
 	width: 12vw;
-	float: right;
+	float: left;
 }
 
 .name {

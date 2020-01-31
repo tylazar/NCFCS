@@ -1,0 +1,26 @@
+@import "common.css";
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+    line-height: 0.5em;;
+}
+
+#body-content {
+    min-height: 100vh;
+    position: relative;
+}
+
+#two-column {
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+    position: relative;
+}
+
+#extra-content {
+    margin-top: 75vh;
+}

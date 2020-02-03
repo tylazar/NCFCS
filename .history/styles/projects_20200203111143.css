@@ -1,0 +1,95 @@
+@import "common.css";
+
+.row {
+	display: inline-flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	align-content: center;
+	margin: auto;
+}
+
+.row,
+.row > .column {
+	float: inline;
+	margin: auto;
+	padding: 8px;
+}
+
+.column {
+	float: left;
+	display: none;
+	width: 40%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.project-content {
+	display: flex;
+	background-color: white;
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+	align-items: center;
+	border: solid black 2px;
+}
+
+.show {
+	display: block;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #ddd;
+}
+
+.btn.active {
+	background-color: #666;
+	color: white;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+}
+
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+}
+
+.caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+
+.close {
+	color: white;
+	position: absolute;
+	font-size: 35px;
+	font-weight: bold;
+}

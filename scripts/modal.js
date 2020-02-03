@@ -1,7 +1,3 @@
-function openModal() {
-	document.getElementById("myModal").style.display = "block";
-}
-
 function closeModal() {
 	document.getElementById("myModal").style.display = "none";
 }
@@ -22,4 +18,16 @@ function showProject(n) {
 
 function currentProject(n) {
 	showProject(index = n);
+}
+
+function showProject() {
+	let modal = document.getElementById("myModal");
+	let img = this;
+	let modalImg = document.getElementById("img01");
+	let modalCap = document.getElementById("caption");
+	img.onclick = function() {
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		modalCap.innerHTML = this.alt;
+	}
 }

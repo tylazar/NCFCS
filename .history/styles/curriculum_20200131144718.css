@@ -1,0 +1,110 @@
+@import "common.css";
+
+hr {
+	width: 15%;
+	border: 0.8vh solid #00539B;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+/* Stuff for the collapsible (break this all up please) */
+/* Still needs work - this is the default design */
+.collapsible {
+  color: #186AA5;
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-right: 2px solid #186AA5;
+  border-left: 2px solid #186AA5;
+  border-bottom: 2px solid #186AA5;
+  border-top: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.first {
+  border-top: 2px solid #186AA5;
+}
+
+.active-collaps,
+.collapsible:hover {
+  background-color: #186AA5;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active-collaps {
+  border: none;
+}
+
+.active-collaps:after {
+  content: "\2212";
+}
+
+.collaps-content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  color: #186AA5;
+  border-left: 2px solid #186AA5;
+  border-right: 2px solid #186AA5;
+  
+}
+
+.collaps-content table {
+	width: 100%;
+	align-content: center;
+}
+
+/* stuff for pathways */
+.path-header {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.path {
+	display: flex;
+	width: 40%;
+	justify-content: center;
+	margin: auto;
+}
+
+.semester {
+  list-style: none;
+}
+
+h6 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+ul {
+  text-align: left;
+  margin-top: -2em;
+  padding-top: -2em;
+  margin-bottom: -2em;
+  list-style-type: disc;
+}
+
+.path-btn {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  background-color: #00539B;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  cursor: pointer;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New College of Florida | Computer Science | Projects</title>
+	
+	<link rel="stylesheet" type="text/css" href="..\styles\projects.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<ul id="top-nav">	
+		<li class="nav"><a href="https://www.ncf.edu/"><img id="nav-img-left" src="..\images\logo-white.png"></a></li>
+		<li class="nav"><a class="top-link" href="..\index.html">Home</a></li>
+		<li class="nav"><a class="top-link" href="..\curriculum.html">Curriculum</a></li>
+		<li class="nav"><a class="top-link" href="..\faculty\index.html">Faculty & Alumni</a></li>
+		<li class="nav"><a class="top-link active" href="..\projects\index.html">Student Projects</a></li>
+		<li class="nav"><a class="top-link" href="..\resources.html">Resources</a></li>
+		<li class="nav"><img id="nav-img-right" src="..\images\four-winds-white.png"></li>
+	</ul>
+	
+	<div id="body-content">
+		<h1>STUDENT PROJECTS</h1>
+		<div id="tags">
+			<button class="btn active" onclick="filterSelection('all')">Show All</button>
+			<button class="btn" onclick="filterSelection('class-project')">Class Project</button>
+			<button class="btn" onclick="filterSelection('internship')">Internship</button>
+			<button class="btn" onclick="filterSelection('ISP')">ISP</button>
+			<button class="btn" onclick="filterSelection('thesis')">Thesis</button>
+		</div>
+		
+		<div class="grid-container">
+			<div class="project-content">
+				<img src="..\images\lepinski-thumb.jpg" alt="This is the alt text for Lepinski, class 1" onclick="openModal(); newProject()">
+				<h4>Class 1</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(2)">
+				<h4>Class 2</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(3)">
+				<h4>Class 3</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(4)">
+				<h4>Class 4</h4>
+			</div>
+			
+			<div class="project-content">
+				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(5)">
+				<h4>Internship 1</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(6)">
+				<h4>Internship 2</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(7)">
+				<h4>Internship 3</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(8)">
+				<h4>Internship 4</h4>
+			</div>
+			
+			<div class="project-content">
+				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(9)">
+				<h4>ISP 1</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(10)">
+				<h4>ISP 2</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(11)">
+				<h4>ISP 3</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(12)">
+				<h4>ISP 4</h4>
+			</div>
+			
+			<div class="project-content">
+				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(13)">
+				<h4>Thesis 1</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(14)">
+				<h4>Thesis 2</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(15)">
+				<h4>Thesis 3</h4>
+			</div>
+			<div class="project-content">
+				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(16)">
+				<h4>Thesis 4</h4>
+			</div>
+		</div>
+		
+		<!--the popup-->
+		<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<div class="modal-content">
+				<div class="project-slide">
+					<img id="project-slide" src="">
+					<p id="caption"></p>
+				</div>
+				<div class="project-slide">
+					<img src="..\images\roy-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\crow-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\gillman-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\lepinski-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\roy-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\crow-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\gillman-thumb.jpg">
+				</div><div class="project-slide">
+					<img src="..\images\lepinski-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\roy-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\crow-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\gillman-thumb.jpg">
+				</div><div class="project-slide">
+					<img src="..\images\lepinski-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\roy-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\crow-thumb.jpg">
+				</div>
+				<div class="project-slide">
+					<img src="..\images\gillman-thumb.jpg">
+				</div>
+				
+				<div class="caption-container">
+					<p id="old-caption">This is the project info</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="..\scripts\project-filter.js"></script>
+		<script type="text/javascript" src="..\scripts\modal.js"></script>
+	</div>
+	
+	<div class="footer">
+		
+	</div>
+</body>
+</html>

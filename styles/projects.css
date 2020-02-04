@@ -10,6 +10,7 @@
 
 .project-content {
 	position: relative;
+	display: none;
 }
 
 .project-content > img {
@@ -51,7 +52,7 @@
 	background-color: #ddd;
 }
 
-.btn.active {
+.btn.active-tag {
 	background-color: #666;
 	color: white;
 }

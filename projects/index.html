@@ -20,80 +20,79 @@
 	<div id="body-content">
 		<h1>STUDENT PROJECTS</h1>
 		<div id="tags">
-			<button class="btn active" onclick="filterSelection('all')">Show All</button>
-			<button class="btn" onclick="filterSelection('class-project')">Class Project</button>
-			<button class="btn" onclick="filterSelection('internship')">Internship</button>
-			<button class="btn" onclick="filterSelection('ISP')">ISP</button>
+			<button class="btn active-tag" onclick="filterSelection('all')">Show All</button>
+			<button class="btn" onclick="filterSelection('class')">Class Project</button>
+			<button class="btn" onclick="filterSelection('intern')">Internship</button>
+			<button class="btn" onclick="filterSelection('isp')">ISP</button>
 			<button class="btn" onclick="filterSelection('thesis')">Thesis</button>
 		</div>
 
 		<!--the grid of projects - each div is a project-->
 		<div class="grid-container">
-			<div class="project-content">
-				<img src="..\images\lepinski-thumb.jpg" alt="This is the alt text for Lepinski, class 1" onclick="showProject()">
+			<div class="project-content class">
+				<img src="..\images\lepinski-thumb.jpg" class="thumb-img" alt="This is the alt text for Lepinski, class 1">
 				<h4>Class 1</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(2)">
+			<div class="project-content class">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
 				<h4>Class 2</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(3)">
+			<div class="project-content class">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
 				<h4>Class 3</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(4)">
+			<div class="project-content class">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
 				<h4>Class 4</h4>
 			</div>
-			
-			<div class="project-content">
-				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(5)">
+			<div class="project-content intern">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
 				<h4>Internship 1</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(6)">
+			<div class="project-content intern">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
 				<h4>Internship 2</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(7)">
+			<div class="project-content intern">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
 				<h4>Internship 3</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(8)">
+			<div class="project-content intern">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
 				<h4>Internship 4</h4>
 			</div>
 			
-			<div class="project-content">
-				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(9)">
+			<div class="project-content isp">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
 				<h4>ISP 1</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(10)">
+			<div class="project-content isp">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
 				<h4>ISP 2</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(11)">
+			<div class="project-content isp">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
 				<h4>ISP 3</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(12)">
+			<div class="project-content isp">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
 				<h4>ISP 4</h4>
 			</div>
 			
-			<div class="project-content">
-				<img src="..\images\lepinski-thumb.jpg" onclick="openModal(); currentProject(13)">
+			<div class="project-content thesis">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
 				<h4>Thesis 1</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\roy-thumb.jpg" onclick="openModal(); currentProject(14)">
+			<div class="project-content thesis">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
 				<h4>Thesis 2</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\crow-thumb.jpg" onclick="openModal(); currentProject(15)">
+			<div class="project-content thesis">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
 				<h4>Thesis 3</h4>
 			</div>
-			<div class="project-content">
-				<img src="..\images\gillman-thumb.jpg" onclick="openModal(); currentProject(16)">
+			<div class="project-content thesis">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
 				<h4>Thesis 4</h4>
 			</div>
 		</div>

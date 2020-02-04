@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New College of Florida | Computer Science | Projects</title>
+	
+	<link rel="stylesheet" type="text/css" href="..\styles\projects.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<ul id="top-nav">	
+		<li class="nav"><a href="https://www.ncf.edu/"><img id="nav-img-left" src="..\images\logo-white.png"></a></li>
+		<li class="nav"><a class="top-link" href="..\index.html">Home</a></li>
+		<li class="nav"><a class="top-link" href="..\curriculum.html">Curriculum</a></li>
+		<li class="nav"><a class="top-link" href="..\faculty\index.html">Faculty & Alumni</a></li>
+		<li class="nav"><a class="top-link active" href="..\projects\index.html">Student Projects</a></li>
+		<li class="nav"><a class="top-link" href="..\resources.html">Resources</a></li>
+		<li class="nav"><img id="nav-img-right" src="..\images\four-winds-white.png"></li>
+	</ul>
+	
+	<div id="body-content">
+		<h1>STUDENT PROJECTS</h1>
+
+		<p class="standard-text">Here at New College, we love to combine
+		knowledge with passion to create stellar independent and class projects.
+		Students complete an Independent Study Projects (ISP) each January where
+		they get to choose what to research, study, or create. This freedom of research
+		culminates in a senior thesis in which the student undertakes a
+		year-long project demonstrating their skills in the field. Click on a
+		project below for more information.</p>
+
+		<div id="tags">
+			<button class="btn active-tag" onclick="filterSelection('all')">Show All</button>
+			<button class="btn" onclick="filterSelection('class')">Class Project</button>
+			<button class="btn" onclick="filterSelection('intern')">Internship</button>
+			<button class="btn" onclick="filterSelection('isp')">ISP</button>
+			<button class="btn" onclick="filterSelection('thesis')">Thesis</button>
+		</div>
+
+		<!--the grid of projects - each div is a project-->
+		<div class="grid-container">
+			<div class="project-content class">
+				<img src="..\images\lepinski-thumb.jpg" class="thumb-img"
+				alt="Lepinski, class 1">
+				<h4>Class 1</h4>
+				<p class="capt">This is the caption for Lepinski, class 1</p>
+			</div>
+			<div class="project-content class">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
+				<h4>Class 2</h4>
+			</div>
+			<div class="project-content class">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
+				<h4>Class 3</h4>
+			</div>
+			<div class="project-content class">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
+				<h4>Class 4</h4>
+			</div>
+			<div class="project-content intern">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
+				<h4>Internship 1</h4>
+			</div>
+			<div class="project-content intern">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
+				<h4>Internship 2</h4>
+			</div>
+			<div class="project-content intern">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
+				<h4>Internship 3</h4>
+			</div>
+			<div class="project-content intern">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
+				<h4>Internship 4</h4>
+			</div>
+			
+			<div class="project-content isp">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
+				<h4>ISP 1</h4>
+			</div>
+			<div class="project-content isp">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
+				<h4>ISP 2</h4>
+			</div>
+			<div class="project-content isp">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
+				<h4>ISP 3</h4>
+			</div>
+			<div class="project-content isp">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
+				<h4>ISP 4</h4>
+			</div>
+			
+			<div class="project-content thesis">
+				<img src="..\images\lepinski-thumb.jpg"  class="thumb-img">
+				<h4>Thesis 1</h4>
+			</div>
+			<div class="project-content thesis">
+				<img src="..\images\roy-thumb.jpg"  class="thumb-img">
+				<h4>Thesis 2</h4>
+			</div>
+			<div class="project-content thesis">
+				<img src="..\images\crow-thumb.jpg"  class="thumb-img">
+				<h4>Thesis 3</h4>
+			</div>
+			<div class="project-content thesis">
+				<img src="..\images\gillman-thumb.jpg"  class="thumb-img">
+				<h4>Thesis 4</h4>
+			</div>
+		</div>
+		
+		<!--the popup-->
+		<div id="myModal" class="modal">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<img class="modalContent" id="img01">
+			<div id="caption"></div>
+		</div>
+		
+		<script type="text/javascript" src="..\scripts\project-filter.js"></script>
+		<script type="text/javascript" src="..\scripts\modal.js"></script>
+	</div>
+	
+	<div class="footer">
+		
+	</div>
+</body>
+</html>

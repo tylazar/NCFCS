@@ -8,7 +8,9 @@ for (let i = 0; i < imgs.length; i++) {
 	imgs[i].addEventListener("click", function() {
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = this.alt;
+
+		let contentDiv = this.parentNode.getElementsByClassName("caption-content")[0];
+		captionText.innerHTML = contentDiv.innerHTML;
 	});
 }
 

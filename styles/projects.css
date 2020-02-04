@@ -35,6 +35,11 @@
 	width: 100%;
 }
 
+.caption-content {
+	display: none;
+	color: red;
+}
+
 .show {
 	display: block;
 }
@@ -87,7 +92,7 @@
 	text-align: center;
 	color: #ccc;
 	padding: 10px 0;
-	height: 150px;
+	min-height: 500px;
 }
 
 .close {

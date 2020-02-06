@@ -1,0 +1,8 @@
+@import "common.css";
+
+#curr-btn {
+    background-color: #00539B;
+    color: white;
+    max-width: 40%;
+    margin: auto;
+}

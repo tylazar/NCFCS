@@ -10,16 +10,11 @@
     border: none;
     padding: 12px 32px;
     cursor: pointer;
-    width: 23vw;
-    font-size: 1.05em;
+    width: 20vw;
 }
 
 #curr-btn > a,
 #curr-btn > a:visited {
     color: white;
     text-decoration: none;
-}
-
-#curr-btn:hover {
-    background-color: #003087;
 }

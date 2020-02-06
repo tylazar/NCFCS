@@ -52,6 +52,7 @@ body {
 	margin: 0;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 
 #body-content {
@@ -82,7 +83,9 @@ h6 {
 }
 
 .main-img {
-	width: 70%;
+	width: 100vw;
+	height: 70vh;
+	object-fit: cover;
 	display: block;
 	margin: auto;
 }

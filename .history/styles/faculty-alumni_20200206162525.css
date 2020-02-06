@@ -1,0 +1,44 @@
+@import "common.css";
+
+.directory {
+	width: 100%;
+	display: inline-flex;
+	align-content: center;
+	/*border: solid black 2px;*/
+}
+
+.entry {
+	float: inline;
+	margin: auto;
+	width: 50%;
+	/*border: solid red 2px;*/
+}
+
+.rnd-img {
+	float: left;
+	width: 15vw;
+	/*border: solid blue 2px;*/
+	padding: 1em;
+}
+
+.logo {
+	width: 8vw;
+	margin: auto;
+}
+
+.desc {
+	margin-top: 6vh;
+	text-align: left;
+	width: 12vw;
+	float: left;
+}
+
+.name {
+	line-height: 1em;
+	margin-bottom: 0em;
+}
+
+.standard-text {
+	margin-top: 0em;
+	/*border: solid green 2px;*/
+}

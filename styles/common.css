@@ -82,6 +82,13 @@ h6 {
 	font-size: 1.5vw;
 }
 
+hr {
+	width: 15%;
+	border: 0.8vh solid #00539B;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
 .main-img {
 	width: 100vw;
 	height: 70vh;

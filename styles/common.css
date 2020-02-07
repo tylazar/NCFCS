@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #00539B;
+	background-color: #194f90;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -37,11 +37,11 @@
 }
 
 li a:hover:not(.active) {
-	background-color: #003087;
+	background-color: #2070ba;
 }
 
 .active {
-	color: #003087;
+	color: #2070ba;
 	background-color: white;
 	font-weight: bold;
 	height: 100%;
@@ -65,26 +65,34 @@ body {
 h1 {
 	margin-top: 6vh;
 	font-family: 'Roboto', sans-serif;
-	color: #00539B;
+	color: #003087;
 	font-size: 3vw;
+	font-weight: bolder;
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
-	color: #00539B;
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
 	font-size: 2vw;
 }
 
-h6 {
-	font-family: 'Montserrat', sans-serif;
-	color: #186AA5;
+h4 {
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
 	line-height: 2em;
-	font-size: 1.5vw;
+	font-size: 1.5em;
+}
+
+h6 {
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
+	line-height: 2em;
+	font-size: 1.6vw;
 }
 
 hr {
 	width: 15%;
-	border: 0.8vh solid #00539B;
+	border: 0.8vh solid #00539b;
 	margin-top: 6vh;
 	margin-bottom: 6vh;
 }
@@ -109,7 +117,7 @@ hr {
 
 .footer {
 	height: 15vh;
-	background-color: #00539B;
+	background-color: #194f90;
 	position: relative;
 	right: 0;
 	left: 0;

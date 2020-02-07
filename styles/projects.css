@@ -33,6 +33,13 @@
 	position: absolute;
 	bottom: 1vh;
 	width: 100%;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+}
+
+.project-content:hover > h4 {
+	color: white;
 }
 
 .caption-content {

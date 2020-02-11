@@ -27,8 +27,5 @@
 
 h1 {
     position: absolute;
-    margin-top: 30vh;
-    width: 100%;
-    text-align: center;
-    color: #fff;
+    align-self: center;
 }

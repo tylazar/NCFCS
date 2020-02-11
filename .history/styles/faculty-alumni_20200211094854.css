@@ -1,0 +1,46 @@
+@import "common.css";
+
+.directory {
+	width: 100%;
+	display: inline-flex;
+	align-content: center;
+}
+
+.entry {
+	float: inline;
+	margin: auto;
+	width: 50%;
+}
+
+.a:focus {
+	border: 1px solid #2070ba;
+}
+
+.rnd-img {
+	float: left;
+	width: 15vw;
+	/*border: solid blue 2px;*/
+	padding: 1em;
+}
+
+.logo {
+	width: 8vw;
+	margin-top: 10%;
+}
+
+.desc {
+	margin-top: 6vh;
+	text-align: left;
+	width: 12vw;
+	float: left;
+}
+
+.name {
+	line-height: 1em;
+	margin-bottom: 0em;
+}
+
+.standard-text {
+	margin-top: 0em;
+	/*border: solid green 2px;*/
+}

@@ -1,0 +1,132 @@
+/* top navigation bar */
+#top-nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #194f90;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+#nav-img-left {
+	height: 3em;
+	margin: 1em;
+	float: left;
+}
+
+.nav {
+	float: left;
+}
+
+.top-link {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 32px 44px;
+}
+
+#nav-img-right {
+	height: 3em;
+	margin: 1em;
+	float: right;
+}
+
+li a:hover:not(.active),
+li a:focus:not(.active) {
+	background-color: #2070ba;
+}
+
+.active:focus {
+	background-color: #2070ba;
+	color: white;
+}
+
+.active {
+	color: #2070ba;
+	background-color: white;
+	font-weight: bold;
+	height: 100%;
+}
+
+
+body {
+	margin: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+#body-content {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-bottom: 10vh;
+}
+
+h1 {
+	margin-top: 6vh;
+	font-family: 'Roboto', sans-serif;
+	color: #003087;
+	font-size: 3vw;
+	font-weight: bolder;
+}
+
+h3 {
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
+	font-size: 2vw;
+}
+
+h4 {
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
+	line-height: 2em;
+	font-size: 1.5em;
+}
+
+h6 {
+	font-family: 'Palatino Linotype', serif;
+	color: #2070ba;
+	line-height: 2em;
+	font-size: 1.6vw;
+}
+
+hr {
+	width: 15%;
+	border: 0.8vh solid #00539b;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+.main-img {
+	width: 100vw;
+	height: 70vh;
+	object-fit: cover;
+	display: block;
+	margin: auto;
+}
+
+.rnd-img {
+	border-radius: 50%;
+	max-width: 20vw;
+}
+
+.standard-text {
+	font-size: 1.2vw;
+	margin-bottom: 5vh;
+}
+
+.footer {
+	height: 15vh;
+	background-color: #194f90;
+	position: relative;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}

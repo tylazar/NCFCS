@@ -28,7 +28,8 @@
 }
 
 .active-collaps,
-.collapsible:hover {
+.collapsible:hover,
+.collapsible:focus {
   background-color: #2070ba;
   color: white;
 }
@@ -44,6 +45,10 @@
   font-weight: bold;
   float: right;
   margin-left: 5px;
+}
+
+.collapsible:after:focus {
+  border: 1px solid white;
 }
 
 .active-collaps {
@@ -119,6 +124,7 @@ ul {
   cursor: pointer;
 }
 
-.path-btn:hover {
+.path-btn:hover,
+.path-btn:focus {
   background-color: #2070ba;
 }

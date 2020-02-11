@@ -4,14 +4,12 @@
 	width: 100%;
 	display: inline-flex;
 	align-content: center;
-	/*border: solid black 2px;*/
 }
 
 .entry {
 	float: inline;
 	margin: auto;
 	width: 50%;
-	/*border: solid red 2px;*/
 }
 
 .rnd-img {

@@ -8,8 +8,7 @@
     background-color: #00539B;
     color: white;
     border: none;
-    padding: 12px 12px;
-    width: 16vw;
+    padding: 24px 24px;
     cursor: pointer;
     font-size: 1.05em;
 }
@@ -20,7 +19,10 @@
     text-decoration: none;
 }
 
-#curr-btn:hover,
-#curr-btn:focus {
+#curr-btn:hover {
+    background-color: #2070ba;
+}
+
+a:focus {
     background-color: #2070ba;
 }

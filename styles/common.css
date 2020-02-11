@@ -36,8 +36,8 @@
 	float: right;
 }
 
-li a:hover:not(.active),
-li a:focus:not(.active) {
+li a:hover,
+li a:focus {
 	background-color: #2070ba;
 }
 
@@ -47,10 +47,8 @@ li a:focus:not(.active) {
 }
 
 .active {
-	color: #2070ba;
-	background-color: white;
+	color: #FCBF49;
 	font-weight: bold;
-	height: 100%;
 }
 
 

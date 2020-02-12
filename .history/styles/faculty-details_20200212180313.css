@@ -2,13 +2,13 @@
 
 .left {
     float: left;
-    width: 50%;
-    margin: auto;
+    max-width: 50%;
 }
 
 .right {
+    margin-top: -5vh;
     float: right;
-    width: 50%;
+    max-width: 50%;
 }
 
 br {
@@ -16,6 +16,7 @@ br {
 }
 
 #body-content {
+    min-height: 100vh;
     position: relative;
     margin-bottom: 6vh;
 }
@@ -38,5 +39,5 @@ br {
 #extra-content {
     margin-top: 65vh;
     line-height: 1em;
-    margin-bottom: 35vh;
+    width: 40%;
 }

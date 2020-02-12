@@ -1,14 +1,14 @@
 @import "common.css";
 
-.left {
+#left {
     float: left;
-    width: 50%;
-    margin: auto;
+    max-width: 50%;
 }
 
-.right {
+#right {
+    margin-top: auto;
     float: right;
-    width: 50%;
+    max-width: 50%;
 }
 
 br {
@@ -16,6 +16,7 @@ br {
 }
 
 #body-content {
+    min-height: 100vh;
     position: relative;
     margin-bottom: 6vh;
 }
@@ -25,6 +26,7 @@ br {
     margin: auto;
     margin-top: 10vh;
     position: relative;
+    min-height: 120vh;
 }
 
 .long {
@@ -33,10 +35,4 @@ br {
 
 .short {
     width: 75%;
-}
-
-#extra-content {
-    margin-top: 65vh;
-    line-height: 1em;
-    margin-bottom: 35vh;
 }

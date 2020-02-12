@@ -3,6 +3,7 @@
 .left {
     float: left;
     width: 50%;
+    position: relative;
     margin: auto;
 }
 
@@ -16,6 +17,7 @@ br {
 }
 
 #body-content {
+    min-height: 120vh;
     position: relative;
     margin-bottom: 6vh;
 }
@@ -38,5 +40,4 @@ br {
 #extra-content {
     margin-top: 65vh;
     line-height: 1em;
-    margin-bottom: 35vh;
 }

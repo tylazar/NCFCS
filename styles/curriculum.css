@@ -90,18 +90,26 @@
 
 .path {
 	display: flex;
-	width: 40%;
 	justify-content: center;
-	margin: auto;
+  margin: auto;
+  min-height: 80vh;
 }
 
 .semester {
   list-style: none;
 }
 
+h4 {
+  margin-top: 2em;
+}
+
 h6 {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.path-div {
+  border: 2px solid red;
 }
 
 ul {
@@ -127,4 +135,15 @@ ul {
 .path-btn:hover,
 .path-btn:focus {
   background-color: #2070ba;
+}
+
+.left {
+  width: 40%;
+  float: left;
+  padding-left: 5vw;
+}
+
+.right {
+  width: 40%;
+  float: right;
 }

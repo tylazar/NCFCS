@@ -6,6 +6,14 @@
 	align-content: center;
 }
 
+#faculty {
+	margin-left: 5vw;
+}
+
+#alumni {
+	margin-left: 8vw;
+}
+
 .entry {
 	float: inline;
 	margin: auto;

@@ -1,8 +1,8 @@
 let slideIndex = 1;
-showPath(slideIndex);
+showPath('AOC');
 
 function changePath(n) {
-	showPath(slideIndex += n);
+	showPath(n);
 }
 
 function currentPath(n) {
@@ -10,12 +10,26 @@ function currentPath(n) {
 }
 
 function showPath(n) {
-	let paths = document.getElementsByClassName("path");
+	var btn;
+	let btns = document.getElementsByClassName('path-btn');
+	if (n == 'AOC') {
+		btn = btns[0];
+	} else if (n == 'double') {
+		btn = btns[1];
+	} else {
+		btn = btns[2];
+	}
+	for (let i = 0; i < btns.length; i++) {
+		btns[i].style.backgroundColor = '#00539B';
+	}
+	btn.style.backgroundColor = '#2070ba';
 
-	if (n > paths.length) {slideIndex = 1;}
-	if (n < 1) {slideIndex = paths.length;}
+
+	let paths = document.getElementsByClassName("path");
+	let nPath = document.getElementsByClassName(n)[0];
+
 	for (let i = 0; i < paths.length; i++) {
 		paths[i].style.display = "none";
 	}
-	paths[slideIndex - 1].style.display = "block";
+	nPath.style.display = "block";
 }

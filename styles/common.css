@@ -55,7 +55,7 @@ li a:focus {
 body {
 	margin: 0;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -75,20 +75,20 @@ h1 {
 }
 
 h2 {
-	font-family: 'Palatino Linotype', serif;
+	font-family: 'Roboto', sans-serif;
 	color: #2070ba;
 	font-size: 2vw;
 }
 
 h3 {
-	font-family: 'Palatino Linotype', serif;
+	font-family: 'Roboto', sans-serif;
 	color: #2070ba;
 	line-height: 2em;
 	font-size: 1.75vw;
 }
 
 h4 {
-	font-family: 'Palatino Linotype', serif;
+	font-family: 'Roboto', sans-serif;
 	color: #2070ba;
 	line-height: 2em;
 	font-size: 1.6vw;

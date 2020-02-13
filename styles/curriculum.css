@@ -81,6 +81,15 @@
 	align-content: center;
 }
 
+.collaps-content a {
+  text-decoration: none;
+  color: #2070ba;
+}
+
+a:focus {
+  color: #00539B;
+}
+
 /* stuff for pathways */
 .path-header {
 	display: flex;

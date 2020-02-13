@@ -6,6 +6,10 @@
 	align-content: center;
 }
 
+.directory a {
+	color: black;
+}
+
 #faculty {
 	margin-left: 5vw;
 }

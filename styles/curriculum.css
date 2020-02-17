@@ -102,6 +102,7 @@ a:focus {
 	justify-content: center;
   margin: auto;
   min-height: 80vh;
+  margin-bottom: 20vh;
 }
 
 .semester {
